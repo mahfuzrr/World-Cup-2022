@@ -21,6 +21,7 @@
   width: 85%;
   margin: 2% auto 0% auto;
   border-radius: 20px;
+  position: relative;
 }
 
 #header-left {
@@ -59,7 +60,8 @@ p {
 #header-right img {
   width: 500px;
   height: 535px;
-  transform: translateY(8%);
+  position: absolute;
+  bottom: 0;
   margin-left: 20%;
   pointer-events: none;
 }
@@ -348,7 +350,6 @@ footer {
   #header-right img {
     width: 450px;
     height: 500px;
-    transform: translateY(15.4%);
   }
   #match-card .news-card {
     width: 32%;
@@ -384,7 +385,6 @@ footer {
   #header-right img {
     width: 410px;
     height: 460px;
-    transform: translateY(25.4%);
   }
 }
 
@@ -404,7 +404,8 @@ footer {
   #header-right img {
     width: 380px;
     height: 410px;
-    transform: translateY(23%);
+    position: absolute;
+    bottom: 0;
   }
   #header {
     height: 70vh;
@@ -451,7 +452,6 @@ footer {
   #header-right img {
     width: 360px;
     height: 400px;
-    transform: translateY(26.5%);
     margin-left: 5%;
     pointer-events: none;
   }
@@ -461,7 +461,6 @@ footer {
   #header-right img {
     width: 330px;
     height: 350px;
-    transform: translateY(23.5%);
   }
   #header {
     height: 60vh;
@@ -599,7 +598,6 @@ footer {
   #header-right img {
     width: 300px;
     height: 330px;
-    transform: translateY(31%);
   }
 
   #header-left h1 {
@@ -616,7 +614,6 @@ footer {
   #header-right img {
     width: 280px;
     height: 310px;
-    transform: translateY(28%);
   }
 
   #header-left {
@@ -642,7 +639,6 @@ footer {
   #header-right img {
     width: 250px;
     height: 280px;
-    transform: translateY(29%);
   }
 
   #header-left {
@@ -654,7 +650,6 @@ footer {
   #header-right img {
     width: 220px;
     height: 250px;
-    transform: translateY(44%);
     margin-left: 0%;
   }
   #match-news {
@@ -666,7 +661,6 @@ footer {
   #header-right img {
     width: 200px;
     height: 230px;
-    transform: translateY(56%);
     margin-left: 0%;
   }
 
@@ -724,10 +718,10 @@ footer {
   #header-right img {
     width: 230px;
     height: 250;
-    transform: translateY(0%);
     pointer-events: none;
     margin: 0 auto 0 auto;
     display: block;
+    left: 20%;
   }
   #watch-live {
     margin: 5% auto 0 auto;
@@ -833,4 +827,17 @@ footer {
     height: 300vh;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  #header-right img {
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  #header-right img {
+    left: 5%;
+  }
+}
+
 /* For Mobile */

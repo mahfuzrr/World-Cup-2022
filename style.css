@@ -615,7 +615,7 @@ footer {
   }
 
   #match-news {
-    height: 150vh;
+    height: 160vh;
   }
 }
 
@@ -754,7 +754,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 280vh;
+    height: 290vh;
   }
 
   #match-nav {

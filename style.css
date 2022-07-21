@@ -613,6 +613,10 @@ footer {
     width: 80%;
     font-size: 30px;
   }
+
+  #match-news {
+    height: 150vh;
+  }
 }
 
 @media only screen and (max-width: 761px) {
@@ -750,7 +754,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 295vh;
+    height: 280vh;
   }
 
   #match-nav {
@@ -825,6 +829,7 @@ footer {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 5%;
   }
 
   #match-day-card .day-card {
@@ -841,7 +846,7 @@ footer {
 
 @media only screen and (max-width: 420px) {
   #match-news {
-    height: 300vh;
+    height: 270vh;
   }
 }
 

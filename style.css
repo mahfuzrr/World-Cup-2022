@@ -339,6 +339,16 @@ footer {
   }
 }
 
+@media only screen and (max-width: 1473px) {
+  #header-left {
+    width: 45%;
+  }
+
+  #header-right img {
+    margin-left: 10%;
+  }
+}
+
 @media only screen and (max-width: 1364px) {
   #header-left {
     width: 45%;
@@ -374,7 +384,7 @@ footer {
   }
 
   #header-right img {
-    margin-left: 15%;
+    margin-left: 5%;
   }
 }
 
@@ -640,6 +650,14 @@ footer {
 
   #header-left {
     margin-top: 2%;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  #header-right img {
+    width: 220px;
+    height: 250px;
+    margin-left: 0%;
   }
 }
 
